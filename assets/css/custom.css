@@ -1,0 +1,286 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+body.light {
+    background-color: rgb(223, 223, 223);
+    color: rgb(29, 29, 29);
+}
+
+body.dark {
+    color: rgb(223, 223, 223);
+    background-color: rgb(29, 29, 29);
+}
+
+.main-screen {
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.overflow-y-scroll {
+    overflow-y: hidden;
+    height: 92vh;
+    max-height: 92vh;
+}
+
+.cart-image {
+    box-shadow: 2px 2px 5px 1px grey;
+}
+
+.product-image-small {
+    width: 30px;
+    height: 30px;
+    object-fit: cover !important;
+}
+
+.product-image-medium {
+    width: auto;
+    height: auto;
+    object-fit: cover !important;
+}
+
+.product-image-large {
+    width: 100px;
+    height: 100px;
+    object-fit: cover !important;
+    object-fit: cover !important;
+}
+
+.sample-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.orders-display {
+    height: 75vh;
+    max-height: 75vh;
+    overflow-y: scroll;
+}
+
+.cart-quantity {
+    width: 60px;
+}
+
+.product-display {
+    overflow-y: scroll;
+    height: 80vh;
+    max-height: 80vh;
+}
+
+.cart-display {
+    overflow-y: scroll;
+    height: 70vh;
+    max-height: 70vh;
+}
+
+.cart-select {
+    font-size: 50px;
+}
+
+.product-image {
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px 5px 1px grey;
+    margin-bottom: 15px;
+    object-fit: cover !important;
+}
+
+.product-image-modal {
+    object-fit: contain;
+    height: 400px;
+}
+
+.swal2-html-container {
+    overflow-x: hidden;
+}
+
+button.swal2-confirm.swal2-styled {
+    font-size: 16px;
+}
+
+button.swal2-cancel.swal2-styled {
+    font-size: 16px;
+}
+
+.bg-custom-primary {
+    background-image: linear-gradient(rgb(14, 93, 211), rgba(13,110,253));
+}
+
+.text-sold {
+    color: #b3a52e;
+}
+
+.text-xxl {
+    font-size: 30px;
+}
+
+.text-xl {
+    font-size: 24px;
+}
+
+.text-l {
+    font-size: 20px;
+}
+
+.text-m {
+    font-size: 16px;
+}
+
+.text-sm {
+    font-size: 14px;
+}
+
+.text-xsm {
+    font-size: 12px;
+}
+
+.colored-toast.swal2-icon-success {
+    background-color: #589c30 !important;
+}
+  
+.colored-toast.swal2-icon-error {
+    background-color: #bd3b3b !important;
+}
+  
+.colored-toast.swal2-icon-warning {
+    background-color: #ac6e38 !important;
+}
+  
+.colored-toast.swal2-icon-info {
+    background-color: #1e83a5 !important;
+}
+  
+.colored-toast.swal2-icon-question {
+    background-color: #4d7b8f !important;
+}
+  
+.colored-toast .swal2-title {
+    color: white;
+}
+  
+.colored-toast .swal2-close {
+    color: white;
+}
+  
+.colored-toast .swal2-html-container {
+    color: white;
+}
+
+.offcanvas {
+    z-index: 1200;
+}
+
+.offcanvas.offcanvas-end {
+    width: 600px;
+}
+
+.offcanvas-backdrop {
+    z-index: 1100;
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+    button.swal2-confirm.swal2-styled {
+        font-size: 14px;
+    }
+
+    button.swal2-cancel.swal2-styled {
+        font-size: 14px;
+    }
+
+    .text-xxl {
+        font-size: 28px;
+    }
+    
+    .text-xl {
+        font-size: 22px;
+    }
+    
+    .text-l {
+        font-size: 18px;
+    }
+    
+    .text-m {
+        font-size: 14px;
+    }
+    
+    .text-sm {
+        font-size: 12px;
+    }
+    
+    .text-xsm {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 599px){
+    button.swal2-confirm.swal2-styled {
+        font-size: 14px;
+    }
+
+    button.swal2-cancel.swal2-styled {
+        font-size: 14px;
+    }
+
+    .text-xxl {
+        font-size: 28px;
+    }
+    
+    .text-xl {
+        font-size: 22px;
+    }
+    
+    .text-l {
+        font-size: 18px;
+    }
+    
+    .text-m {
+        font-size: 14px;
+    }
+    
+    .text-sm {
+        font-size: 12px;
+    }
+    
+    .text-xsm {
+        font-size: 10px;
+    }
+
+    .overflow-y-scroll {
+        height: 80vh;
+        max-height: 80vh;
+        overflow-y: hidden;
+    }
+
+    .product-display {
+        height: 55vh;
+        max-height: 55vh;
+    }
+
+    .cart-display {
+        height: 48vh;
+        max-height: 48vh;
+    }
+
+    .orders-display {
+        height: 58vh;
+        max-height: 58vh;
+    }
+
+    .cart-select {
+        font-size: 30px;
+    }
+
+    .product-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .product-image-modal {
+        object-fit: contain;
+        height: 200px;
+    }
+}
